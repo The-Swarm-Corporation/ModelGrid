@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
 [![PyTorch 2.0+](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 
-[📄 Read the Paper](paper.pdf) | [🚀 Quick Start](#quick-start) | [💻 Installation](#installation) | [📊 Benchmarks](#benchmarks) | [🔍 Examples](#usage-examples)
+[📄 Read the Paper](paper.pdf) | [🚀 Quick Start](#quick-start) | [💻 Installation](#installation) 
 
 **ModelGrid** is a production-grade framework for dynamically allocating GPU memory across multiple PyTorch and Hugging Face models. It enables significantly higher model density on existing GPU infrastructure through intelligent memory management, automatic resource allocation, and parallel execution.
 
