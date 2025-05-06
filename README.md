@@ -8,10 +8,6 @@
 
 **ModelGrid** is a production-grade framework for dynamically allocating GPU memory across multiple PyTorch and Hugging Face models. It enables significantly higher model density on existing GPU infrastructure through intelligent memory management, automatic resource allocation, and parallel execution.
 
-<p align="center">
-  <img src="assets/modelgrid_logo.png" width="300" alt="ModelGrid Logo"/>
-</p>
-
 ## Abstract
 
 Modern deep learning applications increasingly require the deployment of multiple models simultaneously, yet current frameworks fail to efficiently utilize available GPU resources. This paper introduces ModelGrid, a novel framework designed to dynamically allocate GPU memory across multiple PyTorch and Hugging Face models. We present algorithmic innovations for memory requirement estimation, optimal resource allocation, and parallel execution across GPU devices. Our experimental results demonstrate that ModelGrid achieves up to 3.2× improvement in model throughput and 2.7× better memory utilization compared to standard sequential loading approaches. We show that most GPU deployments significantly underutilize available computational resources, and that intelligent memory management can dramatically increase the number of models concurrently servable on existing hardware. ModelGrid represents an important step toward more efficient utilization of increasingly expensive GPU infrastructure in production machine learning systems.
