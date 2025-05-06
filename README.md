@@ -199,7 +199,10 @@ def run(self, task, model_names=None, input_data=None, timeout=30.0):
 ## Installation
 
 ```bash
-pip install modelgrid
+git clone https://github.com/kyegomez/swarms.git
+cd swarms
+cd swarms/structs
+python3 multi_model_gpu_manager.py
 ```
 
 ### Requirements
